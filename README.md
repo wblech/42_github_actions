@@ -24,6 +24,6 @@ Don't forget to send a pull request here  after you finish your file. ;)
 
 | Name     | Link                                                                        | Project |   |   |
 |----------|-----------------------------------------------------------------------------|---------|---|---|
-| PFT_2019 | https://github.com/wblech/42_github_actions/blob/master/printf/pft_2019.yml | printf  |   |   |
+| PFT_2019 | https://github.com/wblech/42_github_actions/blob/master/printf/pft_2019/pft_2019.yml | printf  |   |   |
 |          |                                                                             |         |   |   |
 |          |                                                                             |         |   |   |
