@@ -1,0 +1,17 @@
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: make
+      run: make
+      working-directory: ./42TESTERS-PRINTF/srcs
+    - name: runtest
+      run: bash ./runtest.sh
+      working-directory: ./42TESTERS-PRINTF
