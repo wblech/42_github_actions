@@ -22,11 +22,11 @@ Don't forget to send a pull request here  after you finish your file. ;)
 
 ## List of all YML files:
 
-| Name     | Link                                                                        | Project |   |   |
-|----------|-----------------------------------------------------------------------------|---------|---|---|
-| PFT_2019 | https://github.com/wblech/42_github_actions/blob/master/printf/pft_2019/pft_2019.yml | printf  |   |   |
-|          |                                                                             |         |   |   |
-|          |                                                                             |         |   |   |
+| Name             | Link                                                                            | Project |
+|------------------|---------------------------------------------------------------------------------|---------|
+| PFT_2019         | https://github.com/wblech/42_github_actions/blob/master/printf/pft_2019         | printf  |
+| 42TESTERS-PRINTF | https://github.com/wblech/42_github_actions/tree/master/printf/42TESTERS-PRINTF | printf  |
+|                  |                                                                                 |         |
 
 
 ## List of all repositories of the tests:
@@ -35,7 +35,3 @@ Don't forget to send a pull request here  after you finish your file. ;)
 | PFT_2019        | https://github.com/cclaude42/PFT_2019			   					 | printf  |   |   |
 | 42TESTER-PRINTF | https://github.com/Mazoise/42TESTERS-PRINTF		    				 | printf  |   |   |
 |          		  |                                                                      |         |   |   |
-
-
-
-
