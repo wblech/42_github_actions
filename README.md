@@ -42,3 +42,7 @@ Don't forget to open a pull request here after you create your file. ;)
 | 42TESTER-PRINTF | https://github.com/Mazoise/42TESTERS-PRINTF | printf  |     |     |
 | ft_printf_test  | https://github.com/cacharle/ft_printf_test  | printf  |     |     |
 |                 |                                             |         |     |     |
+
+## Example repos:
+
+- https://github.com/librity/ft_printf
