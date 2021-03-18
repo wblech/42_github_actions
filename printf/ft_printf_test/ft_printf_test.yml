@@ -1,4 +1,4 @@
-name: FT_PRINTF_TEST
+name: ft_printf_test
 
 on:
   push:
