@@ -1,22 +1,21 @@
-name: C/C++ CI
+name: pft_2019
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
-
     runs-on: macos-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: make
-      run: make
-      working-directory: ./pft_2019
-    - name: run_test
-      run: ./test
-      working-directory: ./pft_2019
-    - name: results.txt
-      run: cat results.txt
-      working-directory: ./pft_2019
+      - uses: actions/checkout@v2
+      - name: make
+        run: make
+        working-directory: ./pft_2019
+      - name: run_test
+        run: ./test
+        working-directory: ./pft_2019
+      - name: results.txt
+        run: cat results.txt
+        working-directory: ./pft_2019

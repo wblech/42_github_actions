@@ -1,0 +1,15 @@
+name: ft_printf_test
+
+on:
+  push:
+    branches: [master, main]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: make
+        run: make run
+        working-directory: ./ft_printf_test
