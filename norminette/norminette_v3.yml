@@ -1,0 +1,27 @@
+name: Norminette v3
+
+on: push
+
+jobs:
+  linter:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout to project repository
+        uses: actions/checkout@v2
+      - name: Set up Python version
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+      - name: Install norminette package
+        run: python3 -m pip install norminette
+      - name: Run norminette linter
+        run: |
+          # Runs norminette on every .c and .h file inside includes, libs and sources:
+          find ./includes -type f \( -name \*.c -o -name \*.h \) -exec sh -c 'norminette {}' \; | tee output
+          echo "NORM_ERRORS=$(grep -E 'Error|Warning' output | wc -l)" >> $GITHUB_ENV
+          find ./sources -type f \( -name \*.c -o -name \*.h \) -exec sh -c 'norminette {}' \; | tee output
+          echo "NORM_ERRORS=$(grep -E 'Error|Warning' output | wc -l)" >> $GITHUB_ENV
+      - name: Check norminette linter result
+        run: |
+          echo "Norminette errors found: $NORM_ERRORS"
+          [[ $NORM_ERRORS == 0 ]]
