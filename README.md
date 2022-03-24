@@ -32,13 +32,10 @@ Don't forget to open a pull request here after you create your file. ;)
 | [PFT_2019](https://github.com/cclaude42/PFT_2019)               | https://github.com/wblech/42_github_actions/blob/master/printf/pft_2019              | printf  |
 | [42TESTERS-PRINTF](https://github.com/Mazoise/42TESTERS-PRINTF) | https://github.com/wblech/42_github_actions/tree/master/printf/42TESTERS-PRINTF      | printf  |
 | [ft_printf_test](https://github.com/cacharle/ft_printf_test)    | https://github.com/wblech/42_github_actions/tree/master/printf/ft_printf_test        | printf  |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------- |
 | [pipex-tester](https://github.com/denisgodoy/pipex-tester)      | https://github.com/wblech/42_github_actions/tree/master/pipex/pipex-tester           | pipex   |
 | [pipex_tester_42](https://github.com/Yoo0lh/pipex_tester_42)    | https://github.com/wblech/42_github_actions/tree/master/pipex/pipex_tester_42        | pipex   |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------- |
 | [Norminette v3](https://github.com/42School/norminette)         | https://github.com/wblech/42_github_actions/tree/master/norminette                   | N/A     |
 | --------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------- |
-|                                                                 |                                                                                      |         |
 
 ## Example repos:
 
