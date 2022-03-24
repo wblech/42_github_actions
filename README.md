@@ -35,7 +35,6 @@ Don't forget to open a pull request here after you create your file. ;)
 | [pipex-tester](https://github.com/denisgodoy/pipex-tester)      | https://github.com/wblech/42_github_actions/tree/master/pipex/pipex-tester           | pipex   |
 | [pipex_tester_42](https://github.com/Yoo0lh/pipex_tester_42)    | https://github.com/wblech/42_github_actions/tree/master/pipex/pipex_tester_42        | pipex   |
 | [Norminette v3](https://github.com/42School/norminette)         | https://github.com/wblech/42_github_actions/tree/master/norminette                   | N/A     |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------- |
 
 ## Example repos:
 
